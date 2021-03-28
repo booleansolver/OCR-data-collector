@@ -1,5 +1,0 @@
-name: pypi-publish
-  uses: pypa/gh-action-pypi-publish@v1.4.2
-  with:
-    password: pypi-AgEIcHlwaS5vcmcCJGZjMzcwN2ZlLTFlZTQtNGQ5Mi1hYTk1LTE1OTQzY2JiMzdlZAACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgDfNTWlyIjEwt5uwpa96GLnMzM04nEYujmipmGR03p5s
-    
