@@ -2,7 +2,7 @@
 
 > John Montgomery 29/03 - for NEA 2022
 
-###A tool to help gather and digitise data for OCR
+### A tool to help gather and digitise data for OCR
 
 This is a relatively thrown together package, but allows for the essential requirements I had. These were that it would
 use fiducials and QR codes, along with a table, to allow for collection of handwritten data.
@@ -16,7 +16,7 @@ mechanism to record id's of each table generated in the QR code
 
 ## How the data is formatted
 
-####1- .npy file (default)
+#### 1- .npy file (default)
 This will store the data into a npy file, in the following format:
 
 2 files will be generated:
@@ -24,19 +24,19 @@ This will store the data into a npy file, in the following format:
 - File 1 (default - `lables.npy`) contains an array of integers which corresponds to the group provided when running the code
 - File 2 (default `data.npy`) contains an array of 2D arrays which store the image data
 
-####2- A CSV with paths
+#### 2- A CSV with paths
 This will store the data into a CSV (default `ocr.csv`) of the following format:
 - The path to the date
 - The label
 
-####3- A CSV with data
+#### 3- A CSV with data
 This will store the data into a CSV (default `ocr.csv`) of the following format:
 - The label
 - The data, each pixel being one column
 
-##Other Information Stored
+## Other Information Stored
 
-####In addition to the data collected, other files are created
+#### In addition to the data collected, other files are created
 - If unique ID's were used in the QR codes, a file (default `uid.csv`) will be created. This has a 1:1 reference with the
 data and labels
   
